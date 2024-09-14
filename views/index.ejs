@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GymTicket</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- fa6 icons -->
+    <script src="https://kit.fontawesome.com/aafd8179b0.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- internal css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  
+  <body>
+    <!-- navigation bar -->
+    <!-- <nav class="navbar navbar-expand-sm  navbar-dark">
+      <a class="font-weight-bold navbar-brand" href="#">
+        <i class="fa mr-1 text-warning fa-ticket" aria-hidden="true"></i> GYMTICKET</a>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <a class="m-3 ml-auto text-secondary" href="#pricing">Plans</a>
+          <a class="mr-3 text-secondary" href="#howto" >How to use?</a>
+          <a name="Login" id="login" class="btn font-weight-bold pl-4 pr-4 btn-warning" href="#" role="button">LOGIN</a>
+      </div>
+    </nav> -->
+
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand font-weight-bold text-white" href="index"><i class="fa mr-1 text-warning fa-ticket" aria-hidden="true"></i> GYMTICKET</a>
+                
+                <div class="collapse topnav navbar-collapse" id="navbarID">
+                          <a class="m-4 ml-auto text-secondary" href="#pricing">Plans</a>
+                        <a class="text-secondary" href="#howto" >How to use?</a>
+                        <a name="Login" id="login" class="btn font-weight-bold m-4 pl-4 pr-4 btn-warning" href="/login" role="button">LOGIN</a> 
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+                    aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                    <i  class="fa fa-navicon" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+
+    <!-- main heading -->
+    <div class="jumbotron p-0 bg-transparent jumbotron-fluid">
+      <div class="video-container">
+      <video id="video" autoplay muted loop playsinline> 
+        <source src="./hero-video.mp4" type="video/mp4">
+      </video>
+      <div class="video-caption container p-5">
+        <h1 class="display-4 pb-3 m-auto text-center text-uppercase text-white bg-transparent font-weight-bold">
+            with one payment, access unlimited.<br>
+        </h1>
+        <h1 class="display-4 pt-4 m-auto text-uppercase text-center text-white bg-transparent font-weight-bold"> a world of fitness for you to get fit.</h1>
+
+        <p class="text-white m-5 font-weight-bold text-center lead">In-person, live stream and on-demand workouts from our top partners and instructors.</p>
+        <hr class="bg-warning m-5" />
+
+        <div class="d-flex align-content-center justify-content-center flex-column flex-md-row">
+          <a
+            class="btn m-2 btn-warning btn-lg"
+            href="login"
+            role="button"
+            >Find studios near you<i
+              class="pl-2 fa fa-arrow-circle-right"
+              aria-hidden="true"
+            ></i
+          ></a>
+          <a
+            class="btn m-2 info-button bg-transparent btn-outline-light btn-lg"
+            href="#benefits"
+            role="button"
+            >Get info</a
+          >
+    </div>
+      </div>
+    </div>
+    </div>
+    
+    <!-- benefits -->
+    <!-- <hr id="benefits" class=""> -->
+    <hr  id="benefits" class="bg-warning m-5" />
+    <h2 class="text-center m-5 text-uppercase font-weight-bolder">Benefits</h2>
+    <div class="d-flex align-content-md-start m-auto p-0 text-center justify-content-center container-fluid row">
+      <div class="col-lg-3 col-md-4 col-sm-12 m-4  advantages">
+        <i class="fa m-4 text-dark fa-3x fa-mobile" aria-hidden="true"></i>
+        <h3>One Pass to Your Fitness</h3>
+        <p>
+          Get fit at any fitness center near you, consult expert nutritionists,
+          and get customized exercise routines from a certified professional
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-12  m-4  advantages">
+        <i
+          class="fa m-4 text-success fa-3x fa-tree-city"
+          aria-hidden="true"
+        ></i>
+        <h3>Freedom of Choice</h3>
+        <p>
+          GymTicket is your smart membership to workout anywhere, anytime across Hyderabad
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-12  m-4 advantages">
+        <i class="fas text-dark m-4 fa-dumbbell fa-3x fa-fw"></i>
+        <h3>Meet Like-minded Fitness Enthusiasts</h3>
+        <p>
+          Join the rapidly growing GymTicket community. Get inspired, attend
+          new workout sessions and attract others like you
+        </p>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-12  m-4  advantages">
+        <i
+          class="fa m-4 text-primary fa-3x fa-globe-asia"
+          aria-hidden="true"
+        ></i>
+        <h3>Workout Anywhere</h3>
+        <p>
+            Attend your favorite workout sessions at the
+            best gyms and fitness studios near your
+            home, office and more with your GymTicket
+        </p>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-12  m-4  advantages">
+        <i
+          class="fa m-4 text-warning fa-3x fa-clock"
+          aria-hidden="true"
+        ></i>
+        <h3>Workout Anytime</h3>
+        <p>
+            Attend any or multiple sessions at any
+            center(s) in a day at your convenience
+        </p>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-12  m-4  advantages">
+        <i class="m-4 fas fa-3x fas fa-running" style="color: #00c7fc;"></i>
+
+        <h3>Workout Anyhow</h3>
+        <p>
+            Yoga, Zumba, Pilates, Swimming, Gym
+            workout, MMA, CrossFit, Spinning - you name
+            it, you have it with your GymTicket
+        </p>
+      </div>
+    </div>
+
+    <!-- cards -->
+    <hr id="pricing" class="bg-warning m-5" />
+    <h2 class="text-center text-uppercase font-weight-bold m-5">View Plans</h2>
+    <div class="container m-auto">
+    <div class="card-deck row mb-3 text-center">
+      
+        <div class="card p-0 m-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Basic</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">₹999 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+                <li>Unlimited workout reservations across partner networks</li>
+                <li class="strike">Expert trainer support</li>
+                <li class="strike">Tailor-made nutrition support</li>
+                <li class="strike">Merchandise Discount</li>
+                <li class="strike">Access to exclusive events</li>
+            </ul>
+            <a href="register">
+            <button type="button" class="btn  m-auto btn-lg btn-block btn-warning">Get started</button>
+          </a>
+          </div>
+        </div>
+
+        <div class="card p-0 m-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Essentials</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">₹2,499 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+                <li>Unlimited workout reservations across partner networks</li>
+                <li>Expert trainer support</li>
+                <li class="strike">Tailor-made nutrition support</li>
+                <li class="strike">Merchandise Discount</li>
+                <li class="strike">Access to exclusive events</li>
+            </ul>
+            <a href="register">
+            <button type="button" class="btn btn-lg btn-block btn-warning">Get started</button>
+          </a>
+          </div>
+        </div>
+
+        <div class="card p-0 m-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Elite</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">₹3,999 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+                <li>Unlimited workout reservations across partner networks</li>
+              <li>Expert trainer support</li>
+              <li>Tailor-made nutrition support</li>
+              <li>Merchandise Discount</li>
+              <li>Access to exclusive events</li>
+            </ul>
+            <a href="register">
+            <button type="button" class="btn btn-lg btn-block btn-warning">Get started</button>
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="bg-warning m-5" />
+
+    <!-- various activties -->
+    <div class="text-center workouts container">
+        <h3>Variety is the new routine</h3>
+        <p>Find the class for you with every type of workout available</p>
+        <h1 class="mt-5 mb-3 text-uppercase font-weight-bold">Featured Workouts</h1>
+        <div class="row m-2 text-uppercase">
+        <div class="container-box  col-lg-4">
+            <h4>body building</h4>
+            <img class="m-2" src="./activities/BODYBUILDING.jpg" alt="">
+        </div>
+        <div class="container-box col-lg-4 ">
+            <h4>boxing</h4>
+            <img class="m-2" src="./activities/BOXING.jpeg" alt="">
+        </div>
+        <div class="container-box col-lg-4 ">
+            <h4>dance</h4>
+            <img class="m-2" src="./activities/DANCE.jpeg" alt="">
+        </div>
+        
+        <div class="container-box col-lg-4">
+            <h4>hiit</h4>
+            <img class="m-2" src="./activities/HIIT.jpg" alt="">
+        </div>
+        <div class="container-box col-lg-4">
+            <h4>yoga</h4>
+            <img class="m-2" src="./activities/YOGA.jpeg" alt="">
+        </div>
+        <div class="container-box col-lg-4 ">
+            <h4>zumba</h4>
+            <img class="m-2" src="./activities/ZUMBA.jpg" alt="">
+        </div>
+    </div>
+    </div>
+
+
+    <!-- perks -->
+    <hr class="bg-warning m-5" />
+    
+    <div class="text-center m-auto workouts container">
+        <h2 class="mt-5 mb-3 text-wrap text-uppercase font-weight-bold">exclusive membership perks</h2>
+        <p>Insider discounts for the best brands in nutrition, beauty, apparel and more</p>
+    <div class="row m-2 perk-container">
+        <div class="container-box perk-box col-lg-4">
+            <img class="m-2" src="./perks/1.jpg" alt="">
+        </div>
+        <div class="container-box perk-box col-lg-4 ">
+            <img class="m-2" src="./perks/5.jpg" alt="">
+        </div>
+        <div class="container-box perk-box col-lg-4 ">
+            <img class="m-2" src="./perks/6.jpg" alt="">
+        </div>
+        
+        <div class="container-box perk-box col-lg-4">
+            <img class="m-2" src="./perks/4.jpg" alt="">
+        </div>
+        <div class="container-box perk-box col-lg-4">
+            <img class="m-2" src="./perks/2.jpg" alt="">
+        </div>
+        <div class="container-box perk-box col-lg-4 ">
+            <img class="m-2" src="./perks/3.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- corporate wellness -->
+<hr class="bg-warning m-5" />
+<h2 class="mt-5 text-center text-uppercase mb-5 font-weight-bold">corporate wellness</h2>
+    <div class="container p-0 jumbotron corporate text-center">
+        <div class="corporate-box">
+        <h1 class="display-5">Give your employees the best in fitness & wellness</h1>
+        <p class="lead">Wellness means something different to everyone. With GymTicket, your employees decide how to take care of themselves whether that's breaking a sweat, taking a mindful break or booking a self-care appointment. The result? A happy and healthy work environment inside, and outside the office.</p>
+        <hr class="bg-dark m-4">
+        <p class="lead">
+            <a class="btn mt-1  btn-warning btn-lg" href="register" role="button">Request a quote</a>
+        </p>
+    </div>
+    </div>
+
+    <!-- FAQ -->
+    <hr id="howto" class="bg-warning m-5" />
+    <h2 class="mt-5 text-center mb-5 text-uppercase font-weight-bold">how does gympass work?</h2>
+    <div class="row m-5">
+        <div class="col-sm-12 col-lg-12 container text-dark text-left">
+        <div class="text-dark p-0 faqbox">
+            <h5>With a plan, you have one (1) check-in per day to access: personal or live classes on gyms, studios, or Personal Trainers. That means that you can access one gym a day and multiple gyms throughout the month.</h5>
+            <br><br>
+            <h5>By paying a single monthly fee, you have access to several solutions to stay active and healthy:</h5><br>
+            <ul>
+                <li class="faq-item"><h5> Access to a network of gyms and studios across the city.</h5></li>
+                <li class="faq-item"><h5>Live classes with gyms, studios, and Personal Trainers across the city from the comfort of your home.</h5></li>
+                <li class="faq-item"><h5>Partner Apps with on-demand wellness content that offer therapy sessions, nutritionist, meditation, and more.</h5></li>
+            </ul> 
+        </div>
+        </div>
+        <div class="row container p-0 m-auto d-flex align-items-center qrcode">
+          <div class="text-dark p-0 col-lg-6 col-md-12 col-sm-12">
+            <h5 class="mt-3"><span class="pl-2 font-weight-bolder">Scan QR Code:</span>
+              <ul class="mt-4">
+              <li class="mb-2">Carry your phone to Scan the QR code at the fitness center before starting your workout.</li>
+                <li>
+                  Request the personnel at the center to scan the code in case you are unable to do so due to an unforeseen reason.
+                </li>
+              </ul>  
+                </h5>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="./gymticketQR.png" alt="">
+              </div>
+        </div>
+        </div>
+
+        
+<footer>
+  <div class="footer-box">
+    <img class="logo" src="./logo/vertLogo.PNG" alt="">
+  </div>
+</footer>
+
+<script>
+  //code for auto pause of hero-video
+if(!!window.IntersectionObserver){
+	let video = document.querySelector('video');
+	let isPaused = false; /* flag for auto-pausing of the video */
+	let observer = new IntersectionObserver((entries, observer) => { 
+		entries.forEach(entry => {
+			if(entry.intersectionRatio!=1  && !video.paused){
+				video.pause(); isPaused = true;
+			}
+			else if(isPaused) {video.play(); isPaused=false}
+
+		});
+	}, {threshold: 1});
+	observer.observe(video) ;
+}
+</script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
